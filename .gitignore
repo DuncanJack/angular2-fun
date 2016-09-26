@@ -243,3 +243,7 @@ ModelManifest.xml
 
 # FAKE - F# Make
 .fake/
+
+# Other files
+TourOfHeroes/app/*.js
+TourOfHeroes/app/*.js.map
