@@ -245,5 +245,5 @@ ModelManifest.xml
 .fake/
 
 # Other files
-TourOfHeroes/app/*.js
-TourOfHeroes/app/*.js.map
+Angular2Fun/app/*.js
+Angular2Fun/app/*.js.map
