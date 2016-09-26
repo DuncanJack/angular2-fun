@@ -4,7 +4,7 @@ import { Car } from './car';
 
 @Component({
     selector: 'my-car',
-    template: '<h1>{{car.name}}</h1>'
+    template: '<h1>{{car.name}}</h1><button (click)="test()">test</button>'
 })
 export class CarComponent implements OnInit {
     @Input()
@@ -12,5 +12,9 @@ export class CarComponent implements OnInit {
 
     ngOnInit() {
         this.car.name = 'Changed';
+    }
+
+    test() {
+        this.car.name = 'Changed Again!';
     }
 }
