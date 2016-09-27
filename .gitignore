@@ -247,3 +247,5 @@ ModelManifest.xml
 # Other files
 Angular2Fun/app/*.js
 Angular2Fun/app/*.js.map
+Routing/app/*.js
+Routing/app/*.js.map
