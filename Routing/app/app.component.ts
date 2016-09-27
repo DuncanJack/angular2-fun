@@ -4,6 +4,8 @@ import { PersonComponent } from './person.component';
 
 @Component({
     selector: 'my-app',
-    template: '<h1>test</h1><my-person></my-person><page1></page1><page2></page2>'
+    templateUrl: 'app/app.component.html'
 })
-export class AppComponent { }
+export class AppComponent {
+    title = 'Routing';
+}
