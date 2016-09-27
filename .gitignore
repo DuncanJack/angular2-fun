@@ -249,3 +249,4 @@ Angular2Fun/app/*.js
 Angular2Fun/app/*.map
 Routing/app/*.js
 Routing/app/*.map
+**/npm-debug.log.*

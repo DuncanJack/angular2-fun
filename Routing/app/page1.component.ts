@@ -2,7 +2,7 @@
 
 @Component({
     selector: 'page1',
-    template: '<h2>Page1</h2>'
+    templateUrl: 'app/page1.component.html'
 })
 export class Page1Component {
 }
