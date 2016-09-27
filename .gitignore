@@ -245,8 +245,6 @@ ModelManifest.xml
 .fake/
 
 # Other files
-Angular2Fun/app/*.js
-Angular2Fun/app/*.map
-Routing/app/*.js
-Routing/app/*.map
+**/app/*.js
+**/app/*.map
 **/npm-debug.log.*
