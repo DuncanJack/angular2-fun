@@ -4,7 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { routing } from './app.routing';
 
 import { AppComponent }  from './app.component';
-import { PersonComponent } from './person.component';
+import { ContentsComponent } from './contents.component';
 import { Page1Component } from './page1.component';
 import { Page2Component } from './page2.component';
 import { Page3Component } from './page3.component';
@@ -22,7 +22,7 @@ import { Page9Component } from './page9.component';
     ],
     declarations: [
         AppComponent,
-        PersonComponent,
+        ContentsComponent,
         Page1Component,
         Page2Component,
         Page3Component,

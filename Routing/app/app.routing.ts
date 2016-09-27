@@ -1,6 +1,7 @@
 ﻿import { ModuleWithProviders } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
+import { ContentsComponent } from './contents.component';
 import { Page1Component } from './page1.component';
 import { Page2Component } from './page2.component';
 import { Page3Component } from './page3.component';
@@ -14,15 +15,19 @@ import { Page9Component } from './page9.component';
 const appRoutes = [
     {
         path: '',
-        redirectTo: '/page1',
+        redirectTo: '/contents',
         pathMatch: 'full'
+    },
+    {
+        path: 'contents',
+        component: ContentsComponent
     },
     {
         path: 'page1',
         component: Page1Component
     },
     {
-        path: 'page2',
+        path: 'page2/:name',
         component: Page2Component
     },
     {
