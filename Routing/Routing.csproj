@@ -69,6 +69,16 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="app\app.component.html" />
+    <Content Include="app\contents.component.html" />
+    <Content Include="app\page1.component.html" />
+    <Content Include="app\page2.component.html" />
+    <Content Include="app\page9.component.html" />
+    <Content Include="app\page8.component.html" />
+    <Content Include="app\page7.component.html" />
+    <Content Include="app\page6.component.html" />
+    <Content Include="app\page5.component.html" />
+    <Content Include="app\page4.component.html" />
+    <Content Include="app\page3.component.html" />
     <Content Include="packages.config" />
     <Content Include="package.json" />
     <Content Include="tsconfig.json" />
@@ -93,10 +103,17 @@
     <TypeScriptCompile Include="app\app.component.ts" />
     <TypeScriptCompile Include="app\app.module.ts" />
     <TypeScriptCompile Include="app\app.routing.ts" />
+    <TypeScriptCompile Include="app\contents.component.ts" />
     <TypeScriptCompile Include="app\main.ts" />
     <TypeScriptCompile Include="app\page1.component.ts" />
     <TypeScriptCompile Include="app\page2.component.ts" />
-    <TypeScriptCompile Include="app\person.component.ts" />
+    <TypeScriptCompile Include="app\page3.component.ts" />
+    <TypeScriptCompile Include="app\page9.component.ts" />
+    <TypeScriptCompile Include="app\page8.component.ts" />
+    <TypeScriptCompile Include="app\page7.component.ts" />
+    <TypeScriptCompile Include="app\page6.component.ts" />
+    <TypeScriptCompile Include="app\page5.component.ts" />
+    <TypeScriptCompile Include="app\page4.component.ts" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
