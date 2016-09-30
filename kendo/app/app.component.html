@@ -1,0 +1,4 @@
+﻿<h1>My First Kendo UI Angular 2 App</h1>
+<button kendoButton (click)="show = !show" [primary]=true>Toggler</button>
+<button kendoButton (click)="onButtonClick()" [primary]=true *ngIf="show">Togglee</button>
+<h3>show: {{show}}</h3>
