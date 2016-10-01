@@ -8,6 +8,6 @@ export class AnotherService {
     }
 
     log(): void {
-        console.log('anotherService.log');
+        console.log('----anotherService.log');
     }
 }
