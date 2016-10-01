@@ -81,6 +81,7 @@
     <Content Include="app\page3.component.html" />
     <Content Include="packages.config" />
     <Content Include="package.json" />
+    <Content Include="systemjs.config.js" />
     <Content Include="tsconfig.json" />
     <Content Include="typings.json" />
     <None Include="Web.Debug.config">
