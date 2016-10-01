@@ -1,16 +1,24 @@
 import { Component } from '@angular/core';
 
-import { Car } from './car';
+import { Continent } from './continent';
 
 @Component({
     selector: 'my-app',
-    template: '<h1>{{voiture.name}}</h1><my-car [car]="voiture"></my-car>'
+    templateUrl: 'app/app.component.html'
 })
 export class AppComponent {
-    voiture: Car;
+
+    continents: Continent[];
 
     constructor() {
-        this.voiture = new Car();
-        this.voiture.name = 'Big Red';
+        this.continents = [
+            new Continent('Africa'),
+            new Continent('Antarctica'),
+            new Continent('Asia'),
+            new Continent('Australia'),
+            new Continent('Europe'),
+            new Continent('North America'),
+            new Continent('South America')
+        ];
     }
 }

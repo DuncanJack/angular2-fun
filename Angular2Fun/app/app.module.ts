@@ -2,7 +2,7 @@ import { NgModule }      from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent }  from './app.component';
-import { CarComponent }  from './car.component';
+import { ContinentComponent } from './continent.component';
 
 @NgModule({
     imports: [
@@ -10,7 +10,7 @@ import { CarComponent }  from './car.component';
     ],
     declarations: [
         AppComponent,
-        CarComponent
+        ContinentComponent
     ],
     bootstrap: [AppComponent]
 })
