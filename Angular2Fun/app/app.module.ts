@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent }  from './app.component';
 import { ContinentComponent } from './continent.component';
+import { WorldComponent } from './world.component';
 
 @NgModule({
     imports: [
@@ -10,7 +11,8 @@ import { ContinentComponent } from './continent.component';
     ],
     declarations: [
         AppComponent,
-        ContinentComponent
+        ContinentComponent,
+        WorldComponent
     ],
     bootstrap: [AppComponent]
 })

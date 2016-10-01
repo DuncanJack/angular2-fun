@@ -9,6 +9,6 @@ import { Continent } from './continent';
 export class ContinentComponent {
 
     @Input()
-    model: Continent;
+    continent: Continent;
 
 }

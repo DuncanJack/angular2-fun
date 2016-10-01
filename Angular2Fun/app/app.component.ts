@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
-
-import { Continent } from './continent';
+import { World } from './world';
 
 @Component({
     selector: 'my-app',
@@ -8,17 +7,11 @@ import { Continent } from './continent';
 })
 export class AppComponent {
 
-    continents: Continent[];
+    world: World;
 
     constructor() {
-        this.continents = [
-            new Continent('Africa'),
-            new Continent('Antarctica'),
-            new Continent('Asia'),
-            new Continent('Australia'),
-            new Continent('Europe'),
-            new Continent('North America'),
-            new Continent('South America')
-        ];
+
+        this.world = new World();
+
     }
 }
