@@ -89,10 +89,16 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <TypeScriptCompile Include="app\another.component.ts" />
+    <TypeScriptCompile Include="app\another.service.ts" />
     <TypeScriptCompile Include="app\app.component.spec.ts" />
     <TypeScriptCompile Include="app\app.component.ts" />
     <TypeScriptCompile Include="app\app.module.ts" />
     <TypeScriptCompile Include="app\main.ts" />
+    <TypeScriptCompile Include="app\my.service.ts" />
+    <TypeScriptCompile Include="app\my.component.ts" />
+    <TypeScriptCompile Include="app\your.component.ts" />
+    <TypeScriptCompile Include="app\your.service.ts" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
